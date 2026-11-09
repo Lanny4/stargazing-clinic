@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fcf7f2">
+  <meta name="description" content="Stargazing — демонстраційний сайт клініки естетичної косметології. Дбайливий догляд за шкірою, послуги та форма запису.">
+  <title>Stargazing — естетична косметологія з турботою</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до вмісту</a>
+  <div class="topbar"><span class="topbar-star" aria-hidden="true">✳</span> ПРОСТІР, ДЕ ТУРБОТА ПРО СЕБЕ СТАЄ РИТУАЛОМ <span class="topbar-star" aria-hidden="true">✳</span></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="Stargazing — головна">
+        <span class="brand-symbol" aria-hidden="true">✳</span>
+        <span>star<span class="brand-light">gazing</span><small>SKIN & BEAUTY CLINIC</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="main-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-menu" aria-label="Головна навігація">
+        <a href="#about">Про нас</a>
+        <a href="#services">Послуги</a>
+        <a href="#approach">Наш підхід</a>
+        <a href="#questions">FAQ</a>
+        <a class="nav-cta" href="#booking">Записатися <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-line"></span> ЕСТЕТИЧНА КОСМЕТОЛОГІЯ</p>
+          <h1 id="hero-title">Твоя краса —<br> у <em>турботі</em><br> про себе<span class="title-dot">.</span></h1>
+          <p class="hero-description">Місце, де ніжний догляд, уважність до деталей і любов до природної краси створюють твій особливий ритуал.</p>
+          <div class="hero-actions">
+            <a href="#booking" class="btn btn-dark">Записатися на візит <span aria-hidden="true">↗</span></a>
+            <a href="#services" class="text-link">Наші послуги <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-note"><span class="tiny-flower" aria-hidden="true">✻</span><span>Soft skin. Slow beauty. Self love.</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-halo" aria-hidden="true"></div>
+          <div class="hero-image-frame">
+            <img class="hero-photo" src="assets/hero-art.svg" data-photo="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="Доглядова процедура для обличчя в косметологічному кабінеті" fetchpriority="high">
+          </div>
+          <div class="floating-seal" aria-hidden="true"><span>GLOW<br>WITH<br>CARE</span><span class="seal-star">✧</span></div>
+          <div class="floating-caption"><span class="caption-star" aria-hidden="true">✷</span> твій момент спокою <span aria-hidden="true">↗</span></div>
+          <span class="vertical-label" aria-hidden="true">STARGAZING — THE BEAUTY OF BEING YOU</span>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>01 / 04 — ПОЧНИ ІЗ СЕБЕ</span><span class="hero-scroll">ГОРТАЙ НИЖЧЕ <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section class="values" aria-label="Наші цінності">
+      <div class="container values-grid">
+        <div><span aria-hidden="true">✳</span> ДЕЛІКАТНИЙ ДОГЛЯД</div>
+        <div><span aria-hidden="true">✳</span> ІНДИВІДУАЛЬНИЙ ПІДХІД</div>
+        <div><span aria-hidden="true">✳</span> ПРИРОДНА КРАСА</div>
+        <div><span aria-hidden="true">✳</span> ЧАС ДЛЯ СЕБЕ</div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading heading-split">
+          <div><p class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> ТЕ, ЩО ПОТРІБНО ТВОЇЙ ШКІРІ</p><h2 id="services-title">Догляд, у якому <em>ти — головна</em></h2></div>
+          <p>Обирай процедуру під свої потреби. Кожна зустріч починається з розмови про твою шкіру та очікування.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card service-one">
+            <div class="service-art" aria-hidden="true"><span class="art-number">01</span><svg viewBox="0 0 220 190" role="presentation"><path d="M116 24c-35 0-63 28-63 66 0 24 9 42 24 59 11 12 23 20 39 20 39 0 65-31 65-77 0-39-26-68-65-68Z"/><path d="M62 77c-11-17-6-38 3-46M80 36c18-24 67-23 88 1M84 96c9-9 20-9 29-1M132 96c9-9 20-9 29-1M121 97l-7 28h14M110 140c9 6 22 6 31-1"/><path d="M56 90c-19 11-26 27-21 45M179 98c20 18 19 37 8 50"/></svg><span class="art-decoration">✧</span></div>
+            <div class="service-info"><div class="service-topline"><span>ОБЛИЧЧЯ · 60 ХВ</span><span>від 850 ₴</span></div><h3>Чистка обличчя</h3><p>Дбайливе очищення та відчуття свіжості.</p><button class="service-action" type="button" data-service="Чистка обличчя" aria-label="Обрати послугу Чистка обличчя">Обрати процедуру <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="service-card service-two">
+            <div class="service-art" aria-hidden="true"><span class="art-number">02</span><svg viewBox="0 0 220 190" role="presentation"><rect x="82" y="66" width="60" height="93" rx="10"/><rect x="94" y="48" width="36" height="18" rx="3"/><path d="M104 46V31h15v15M110 95v33M96 111h28M72 140l-13 10M152 120l15-11M161 63l13-4"/><path d="M48 70c10 10 15 21 16 33M169 144c-8 7-15 16-17 26"/></svg><span class="art-decoration">✳</span></div>
+            <div class="service-info"><div class="service-topline"><span>ЗВОЛОЖЕННЯ · 60 ХВ</span><span>від 1 100 ₴</span></div><h3>Доглядові процедури</h3><p>М'яке відновлення та комфорт для шкіри.</p><button class="service-action" type="button" data-service="Доглядові процедури" aria-label="Обрати послугу Доглядові процедури">Обрати процедуру <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="service-card service-three">
+            <div class="service-art" aria-hidden="true"><span class="art-number">03</span><svg viewBox="0 0 220 190" role="presentation"><path d="M110 25c-24 31-47 62-47 91 0 28 21 48 47 48s47-20 47-48c0-29-23-60-47-91Z"/><path d="M88 117c0 12 10 24 23 24M110 46c-11 21-23 39-28 56M158 50l9-17 9 17 17 9-17 9-9 17-9-17-17-9 17-9Z"/><path d="M54 39l5-9 5 9 9 5-9 5-5 9-5-9-9-5 9-5Z"/></svg><span class="art-decoration">✦</span></div>
+            <div class="service-info"><div class="service-topline"><span>ОНОВЛЕННЯ · 45 ХВ</span><span>від 950 ₴</span></div><h3>Пілінги</h3><p>Оновлення шкіри з урахуванням її стану.</p><button class="service-action" type="button" data-service="Пілінги" aria-label="Обрати послугу Пілінги">Обрати процедуру <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="service-card service-four">
+            <div class="service-art" aria-hidden="true"><span class="art-number">04</span><svg viewBox="0 0 220 190" role="presentation"><path d="M45 53h130v85H86l-34 23v-23h-7Z"/><path d="M76 83h68M76 104h47M155 54V33M146 43h19"/><circle cx="165" cy="115" r="15"/></svg><span class="art-decoration">✳</span></div>
+            <div class="service-info"><div class="service-topline"><span>ЗНАЙОМСТВО · 30 ХВ</span><span>від 500 ₴</span></div><h3>Консультація</h3><p>Підбір догляду відповідно до твоїх цілей.</p><button class="service-action" type="button" data-service="Консультація косметолога" aria-label="Обрати послугу Консультація косметолога">Обрати процедуру <span aria-hidden="true">↗</span></button></div>
+          </article>
+        </div>
+        <p class="price-note">* Послуги та ціни наведені як приклад для навчального проєкту, не є публічною пропозицією.</p>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <div class="about-art-frame"><img src="assets/clinic-art.svg" data-photo="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Спокійний простір для відпочинку та косметологічного догляду" loading="lazy"></div>
+          <span class="about-side-word" aria-hidden="true">feel good in your skin</span>
+          <div class="about-sticker" aria-hidden="true">YOUR SKIN<br>YOUR STORY <span>✳</span></div>
+        </div>
+        <div class="about-content"><p class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> ЗНАЙОМСЯ, STARGAZING</p><h2 id="about-title">Краса без поспіху.<br><em>Турбота без компромісів.</em></h2><p class="about-lead">Ми віримо, що догляд за собою — це не про стандарти, а про відчуття гармонії з собою.</p><p>Stargazing — концепт затишної косметологічної клініки, у якій важливі делікатність, комфорт і індивідуальні потреби шкіри. Наша ідея — зробити кожен візит маленькою паузою для себе.</p><div class="about-quote"><span aria-hidden="true">“</span><p>Найкрасивіше, що ти можеш обрати сьогодні, — подбати про себе.</p></div><a class="text-link" href="#approach">Дізнатися про наш підхід <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section steps-section" id="approach" aria-labelledby="steps-title"><div class="container"><div class="steps-head"><p class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> ТВОЯ BEAUTY-РУТИНА</p><h2 id="steps-title">Три кроки до <em>твого glow</em></h2><p>Просто, зрозуміло і без зайвого стресу.</p></div><div class="steps-grid"><div class="step"><span class="step-count">01 <span aria-hidden="true">↗</span></span><div class="step-line"></div><h3>Знайомство</h3><p>Обговорюємо потреби, чутливість шкіри та очікуваний результат.</p></div><div class="step"><span class="step-count">02 <span aria-hidden="true">↗</span></span><div class="step-line"></div><h3>Персональний догляд</h3><p>Обираємо доречний формат процедури та пояснюємо кожен етап.</p></div><div class="step"><span class="step-count">03 <span aria-hidden="true">✳</span></span><div class="step-line"></div><h3>Турбота щодня</h3><p>Звертаємо увагу на домашню рутину й комфорт після відвідування.</p></div></div></div></section>
+
+    <section class="quote-banner" aria-label="Натхнення"><div class="container"><p>YOU DESERVE TO <em>FEEL BEAUTIFUL</em> IN YOUR OWN SKIN.</p><span aria-hidden="true">✳</span></div></section>
+
+    <section class="section faq-section" id="questions" aria-labelledby="faq-title"><div class="container faq-grid"><div><p class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> ВАЖЛИВО ЗНАТИ</p><h2 id="faq-title">Маєш <em>питання?</em></h2><p class="faq-intro">Зібрали відповіді на те, про що найчастіше запитують перед першою процедурою.</p></div><div class="faq-items"><details><summary>Як обрати процедуру? <span aria-hidden="true">+</span></summary><p>Якщо вагаєшся, почни з консультації косметолога. Спеціаліст оцінює стан шкіри та допомагає обрати відповідний догляд.</p></details><details><summary>Чи потрібна підготовка до візиту? <span aria-hidden="true">+</span></summary><p>Залежить від процедури. Перед реальним візитом слід уточнити рекомендації, протипоказання та потребу в підготовці безпосередньо у фахівця.</p></details><details><summary>Як працює форма запису на цьому сайті? <span aria-hidden="true">+</span></summary><p>Це демонстраційний навчальний проєкт. Форма перевіряє поля у браузері, але не передає персональні дані та не створює справжнього запису.</p></details></div></div></section>
+
+    <section class="section booking-section" id="booking" aria-labelledby="booking-title"><div class="container booking-grid"><div class="booking-text"><p class="eyebrow"><span class="eyebrow-line"></span> ПОЧНИ З ТУРБОТИ ПРО СЕБЕ</p><h2 id="booking-title">Зроби перший<br>крок до <em>свого glow.</em></h2><p>Заповни коротку форму, щоб побачити, як працює онлайн-запис. Це навчальна демонстрація: справжня заявка не надсилається.</p><div class="booking-decoration" aria-hidden="true">✳<span>self care starts here</span></div></div><div class="booking-card"><p class="form-tag">STARGAZING / ONLINE BOOKING</p><h3>Запис на процедуру <span aria-hidden="true">✧</span></h3><form id="booking-form"><div class="form-field"><label for="client-name">Твоє ім'я <span aria-hidden="true">*</span></label><input type="text" id="client-name" name="name" placeholder="Як до тебе звертатися?" autocomplete="name" minlength="2" maxlength="80" required></div><div class="form-field"><label for="client-phone">Номер телефону <span aria-hidden="true">*</span></label><input type="tel" id="client-phone" name="phone" placeholder="+380 XX XXX XX XX" autocomplete="tel" pattern="[0-9+ ]{9,20}" title="Введіть номер телефону: від 9 до 20 символів (цифри, + і пробіли)" required></div><div class="form-field"><label for="client-service">Бажана послуга <span aria-hidden="true">*</span></label><select id="client-service" name="service" required><option value="" disabled selected>Обери процедуру</option><option value="Чистка обличчя">Чистка обличчя</option><option value="Доглядові процедури">Доглядові процедури</option><option value="Пілінги">Пілінги</option><option value="Консультація косметолога">Консультація косметолога</option></select></div><div class="form-field"><label for="client-date">Бажана дата <span aria-hidden="true">*</span></label><input type="date" id="client-date" name="date" required></div><button class="btn btn-dark btn-submit" type="submit">Перевірити форму <span aria-hidden="true">↗</span></button><p class="form-legal">Демо-форма: введені дані не зберігаються та не передаються на сервер.</p><div id="form-status" class="form-status" role="status" aria-live="polite" tabindex="-1" hidden></div></form></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-main"><div><a class="brand footer-brand" href="#top"><span class="brand-symbol" aria-hidden="true">✳</span><span>star<span class="brand-light">gazing</span><small>SKIN & BEAUTY CLINIC</small></span></a><p>Beauty begins with care.</p></div><div class="footer-links"><a href="#services">Послуги</a><a href="#about">Про нас</a><a href="#booking">Записатися</a><a href="#questions">Питання</a></div></div><div class="footer-bottom"><span>© <span id="year">2026</span> Stargazing. Навчальний вебпроєкт.</span><span>Демо-сайт · Не є сторінкою реальної клініки</span><a href="#top">Нагору ↑</a></div></div></footer>
+</body>
+</html>
